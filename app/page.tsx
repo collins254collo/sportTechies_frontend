@@ -554,7 +554,7 @@ export default function Hero() {
             <div className="fade-up delay-4 flex flex-wrap items-center justify-center gap-4">
               <Link href="/services"
                 className="group relative inline-flex items-center gap-2.5 text-sm font-bold px-8 py-4 rounded-xl overflow-hidden transition-all duration-200 hover:scale-[1.03] hover:shadow-2xl"
-                style={{ background: "var(--gradient-brand)", color: "#fff", boxShadow: "0 8px 28px rgba(26,107,255,0.38)" }}>
+                style={{ background: "var(--gradient-brand)", color: "var(--text-primary)", boxShadow: "0 8px 28px rgba(26, 106, 255, 0.74)" }}>
                 <span className="shimmer-btn absolute inset-0 pointer-events-none" style={{ background: "linear-gradient(90deg, transparent, rgba(255,255,255,0.18), transparent)" }} />
                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" className="relative">
                   <path d="M2 7.5h11M9 4l3.5 3.5L9 11" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
@@ -679,7 +679,7 @@ export default function Hero() {
               <Link
                 href="/contact"
                 className="inline-flex items-center gap-2.5 text-sm font-bold px-7 py-3.5 rounded-xl transition-all duration-200 hover:scale-[1.03]"
-                style={{ background: "var(--gradient-brand)", color: "#fff", boxShadow: "0 6px 20px rgba(26,107,255,0.30)" }}
+                style={{ background: "var(--gradient-brand)", color: "var(--text-primary)", boxShadow: "0 6px 20px rgba(26,107,255,0.30)" }}
               >
                 Book a Free Call
                 <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
@@ -937,7 +937,7 @@ export default function Hero() {
                 <Link
                   href="/athech"
                   className="group inline-flex items-center gap-2 text-sm font-bold px-6 py-3.5 rounded-xl transition-all duration-200 hover:scale-[1.03]"
-                  style={{ background: "var(--gradient-brand)", color: "#fff", boxShadow: "0 6px 20px rgba(26,107,255,0.30)" }}
+                  style={{ background: "var(--gradient-brand)", color: "var(--text-primary)", boxShadow: "0 6px 20px rgba(26,107,255,0.30)" }}
                 >
                   Explore Athech
                   <svg width="13" height="13" viewBox="0 0 13 13" fill="none"

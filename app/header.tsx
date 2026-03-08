@@ -107,7 +107,7 @@ function MobileMenu({ isOpen, onClose }: { isOpen: boolean; onClose: () => void 
         isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
       }`}
     >
-      <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" onClick={onClose} />
+      <div className="absolute inset-0 bg-black/80 backdrop-blur-sm" onClick={onClose} />
 
       <div
         className={`absolute top-0 right-0 h-full w-[85vw] max-w-sm flex flex-col transition-transform duration-300 ${
@@ -136,7 +136,7 @@ function MobileMenu({ isOpen, onClose }: { isOpen: boolean; onClose: () => void 
                   <button
                     onClick={() => setExpanded(expanded === item.label ? null : item.label)}
                     className="w-full flex items-center justify-between px-4 py-3 rounded-xl text-sm font-medium transition-colors"
-                    style={{ color: "var(--text-muted)" }}
+                    style={{ color: "var(--text-primary)" }}
                   >
                     {item.label}
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
@@ -340,7 +340,7 @@ export default function Header() {
                            hover:scale-[1.03]"
                 style={{
                   background: "var(--gradient-brand)",
-                  color: "#fff",
+                  color: "var(--text-on-primary)",
                   boxShadow: "0 4px 18px rgba(26,107,255,0.30)",
                 }}
               >
