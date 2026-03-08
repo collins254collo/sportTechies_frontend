@@ -271,7 +271,7 @@ export default function Footer() {
           {FOOTER_COLUMNS.map((col) => (
             <div key={col.heading} className="flex flex-col gap-4">
               <h3
-                className="text-[11px] font-semibold text-white tracking-[0.15em] uppercase"
+                className="text-[11px] font-semibold text-(var(--text-primary)) tracking-[0.15em] uppercase"
                 style={{ fontFamily: "'DM Mono', monospace" }}
               >
                 {col.heading}
